@@ -12,3 +12,5 @@ RUN curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - && sudo apt-g
 
 RUN npm install -g yarn
 RUN npm install -g webpack
+
+CMD ["iex"]

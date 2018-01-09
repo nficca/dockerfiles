@@ -1,8 +1,5 @@
 FROM elixir:1.5.2
 
-ENV DEBIAN_FRONTEND=noninteractive
-ENV HOME=/opt/app/ TERM=xterm
-
 # Install Hex and Rebar
 RUN mix local.hex --force && \
     mix local.rebar --force

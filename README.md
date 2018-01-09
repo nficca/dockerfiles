@@ -1,6 +1,9 @@
-# elixir-webpack
+# dockerfiles
 
-A Dockerfile for building an image with both elixir and webpack. The image is hosted publically [here](https://hub.docker.com/r/nficca/elixir-webpack/).
+A repo for the various dockerfiles I made for personal use. I also host the images publically:
+* [elixir-webpack](https://hub.docker.com/r/nficca/elixir-webpack/)
+  * Elixir, node, webpack, and yarn
+* [docker-python-aws](https://hub.docker.com/r/nficca/docker-python-aws/)
+  * Docker cli, python, aws cli, and [ecs-deploy](https://github.com/fabfuel/ecs-deploy)
 
-This is an image I just use for personal projects so I currently have no plans to support this with more elixir/node versions, but I am open to PRs for those that want to.
-
+These are simple images I use for personal projects so I currently have no plans support different versions, but I am open to PRs.
